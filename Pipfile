@@ -4,10 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-fastapi = "*"
 fastapi-sqlalchemy = "*"
 pydantic = "*"
 alembic = "*"
+python-dotenv = "*"
+uvicorn = {version = "==0.20.0", extras = ["standard"]}
+gunicorn = "==20.1.0"
+fastapi = {version = "==0.88.0", extras = ["all"]}
 
 [dev-packages]
 
