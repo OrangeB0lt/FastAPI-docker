@@ -8,8 +8,8 @@ fastapi-sqlalchemy = "*"
 pydantic = "*"
 alembic = "*"
 python-dotenv = "*"
-uvicorn = {version = "==0.20.0", extras = ["standard"]}
 gunicorn = "==20.1.0"
+uvicorn = {version = "==0.20.0", extras = ["standard"]}
 fastapi = {version = "==0.88.0", extras = ["all"]}
 
 [dev-packages]
